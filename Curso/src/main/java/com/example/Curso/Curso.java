@@ -9,35 +9,35 @@ public class Curso {
     private int id;
 
     public Curso(){
-        
+
     }
     // Constructor
     public Curso(String name,  String horario, int id){
         
-        name = this.name;
-        horario = this.horario;
-        id = this.id;
+        this.name = name;
+        this.horario = horario;
+        this.id = id;
 
     }
 
     //Setters and Getters
 
     public void setName(String name){
-        name = this.name;
+       this.name = name;
     }
     public String getName(){
         return name;
     }
 
     public void setHorario(String horario){
-        horario = this.horario;
+        this.horario = horario;
     }
     public String getHorario(){
         return horario;
     }
 
     public void setId(int id){
-        id = this.id;
+        this.id = id;
     }
     public int getId(){
         return id;
