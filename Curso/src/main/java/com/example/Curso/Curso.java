@@ -1,4 +1,4 @@
-package com;
+package com.example.Curso;
 
 public class Curso {
 
@@ -8,6 +8,9 @@ public class Curso {
     private String horario;
     private int id;
 
+    public Curso(){
+        
+    }
     // Constructor
     public Curso(String name,  String horario, int id){
         
